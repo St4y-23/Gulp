@@ -93,6 +93,9 @@ body {
 }
 
 // Burger
+.ham__box{
+  display: none;
+}
 .ham {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -102,7 +105,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   width: 40px;
-  display: none;
+  display: block;
   position: relative;
   z-index: 10;
   background-color: #fff;
